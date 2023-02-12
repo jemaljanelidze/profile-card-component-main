@@ -31,7 +31,7 @@ img {
 main {
   background: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
   background-repeat: no-repeat, no-repeat;
-  background-position: right 40vw bottom 70vh, left 45vw top 65vh;
+  background-position: right 40vw bottom 60vh, left 45vw top 55vh;
   background-size: 622px 621px, 622px 621px;
   background-color: var(--Dark-cyan);
 }
@@ -58,7 +58,7 @@ main {
   width: 106px;
   border: 5px solid #FFFFFF;
   border-radius: 50%;
-  transform: translate(110px, 88px);
+  margin-top: 88px;
 }
 
 .heading {
@@ -107,57 +107,19 @@ main {
 .attribution a {
   color: #3e52a3;
 }
-/* 
+
 @media screen and (min-width: 1440px) {
   main {
-    background: url(./images/pattern-background-desktop.svg) no-repeat #f2f2f2;
-    background-size: 100vw;
+    background-position: right 52vw bottom 35vh, left 49vw top 51vh;
+    background-size: 978px 976px, 978px 976px;
   }
   
   .content-parent {
-    height: 900px;
+    height: 720px;
   }
 
   .content {
-    width: 450px;
-    height: 697px;
+    width: 350px;
+    height: 374px;
   }
-
-  .heading {
-    padding: 2rem 3rem !important;
-  }
-
-  .title {
-    padding: 13px 0 !important;
-    font-size: 28px;
-    line-height: 37px;
-  }
-
-  .description {
-    padding: 4px 0 !important;
-    font-size: 1rem;
-    line-height: 26px;
-  }
-
-  .parent {
-    padding: 25px !important;
-  }
-
-  .parent > .child-2 {
-    font-size: 1rem;
-    line-height: 21px;
-  }
-
-  .parent > .child-3 > a {
-    font-size: 14px;
-    line-height: 19px;
-  }
-
-  .footer {
-    padding: 0 3rem !important;
-  }
-
-  .footer > button:last-child {
-    margin-top: 2rem !important;
-  }
-} */
+}
